@@ -1,7 +1,7 @@
 # mp3Serial_JQ8400TF
 Arduino Library for mp3/wav module based on chinese JQ8400TF chip.
 
-![JQ8400TF module](https://github.com/Cyb3rn0id/mp3Serial_JQ8400TF/blob/master/mp3wav_module.jpg)
+![JQ8400TF module](https://github.com/Cyb3rn0id/mp3Serial_JQ8400TF/blob/master/documents/mp3wav_module.jpg)
 
 This library uses the hardware serial port. 
 
