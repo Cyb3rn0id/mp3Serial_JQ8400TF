@@ -91,6 +91,7 @@ class mp3Serial
 		void setVolume(uint8_t volume);
 		void playWithVolume(uint8_t volume, uint8_t index);
 		void injectSong(uint16_t index);
+		void playFromFolder(uint8_t folder, uint8t index);
 				
 	private:
 		void write_nBytes(uint8_t n);
