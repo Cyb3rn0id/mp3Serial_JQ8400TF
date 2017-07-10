@@ -14,7 +14,7 @@ Download the .zip library from here. In the Arduino IDE, from the 'Sketch' menu,
 
 ## Libray Usage
 
-In your arduino sketch, include library:
+First, be sure you've included at least 1 file on the microSD card! (you can use WAV or MP3). In your arduino sketch, include library:
 
 ```C
 #include <mp3serial_JQ8400TF.h>
