@@ -8,7 +8,7 @@
 */
 #include <mp3serial_JQ8400TF.h>
 
-mp3Serial mp3(0); // initialize library on serial port 0 (for Arduino duemilanove)
+mp3Serial mp3(0); // initialize library on serial port 0 (for Arduino duemilanove, ESP8266 and others)
 //mp3Serial mp3(1); // for Serial 1 on Arduino Leonardo (rx:0, tx:1) or Mega (rx:19, tx:18)
 //mp3Serial mp3(2); // for Serial 2 on Mega (rx:17, tx:16)
 //mp3Serial mp3(3); // for Serial 3 on Mega (rx:15, tx:14)
