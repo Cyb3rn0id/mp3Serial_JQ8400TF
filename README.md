@@ -6,7 +6,11 @@ This library uses the hardware serial port. I've written it for usage with ESP82
 
 More info on http://www.settorezero.com/wordpress/un-player-wavmp3-economico-controllabile-da-porta-seriale-libreria-per-arduino-e-esp8266/
 
-##Usage
+## Library Install
+
+Download the .zip library from here. In the Arduino IDE, from the 'Sketch' menu, select '#include library' and then 'add library from .zip'. Select the .zip you've downloaded here.
+
+## Libray Usage
 
 In your arduino sketch, include library:
 
