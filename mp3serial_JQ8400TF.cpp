@@ -152,6 +152,12 @@ void mp3Serial::injectSong(uint16_t index)
 	write_3bytes(CMD_INJECT_INDEX, index); 
 	};
 
+// play song INDEX from folder FOLDER
+void playFromFolder(uint8_t folder, uint8t index)
+	{
+	write_3bytes(CMD_PLAY_DIR_INDEX, (uint16_t)((folder<<8)|index)); 
+	};
+
 // -------------------------------------------------------------------------------
 // private functions	
 // -------------------------------------------------------------------------------
