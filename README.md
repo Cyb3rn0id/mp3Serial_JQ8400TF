@@ -50,4 +50,5 @@ Now you can use the commands:
 .setVolume(uint8_t volume); // set volume to 'volume' value (0x00 to 0x30)
 .playWithVolume(uint8_t volume, uint8_t index); // play 'index'th song at 'volume' volume value
 .injectSong(uint16_t index); // inject the 'index'th song (without playing it)
+.playFromFolder(uint8_t folder, uint8t index); // play 'index'th song from 'folder'th folder
 ```
