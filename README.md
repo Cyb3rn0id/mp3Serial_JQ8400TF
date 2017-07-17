@@ -6,7 +6,7 @@ Module that can be used with this library is depicted above: is the one with onl
 
 The library uses the hardware serial port. I've written it for usage with ESP-01 (ESP8266) but I've tested it also on Arduino Duemilanove and Arduino Leonardo. The library includes features for be used with other Serial ports (1,2 and 3) on Arduino Leonardo, Mega and Mega2560.
 
-More info on the module and library here (italian language): http://www.settorezero.com/wordpress/un-player-wavmp3-economico-controllabile-da-porta-seriale-libreria-per-arduino-e-esp8266/
+More info on the module and library here: http://www.settorezero.com/wordpress/en/un-player-wavmp3-economico-controllabile-da-porta-seriale-libreria-per-arduino-e-esp8266/
 
 ## Library Install
 
