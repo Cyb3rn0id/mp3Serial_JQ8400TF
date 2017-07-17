@@ -1,4 +1,4 @@
-# Arduino Library for mp3/wav Serial module based on JQ8400TF
+# Arduino Library for mp3/wav Serial module based on JQ8400TF or QJ004-16S
 
 ![JQ8400TF module](https://github.com/Cyb3rn0id/mp3Serial_JQ8400TF/blob/master/documents/mp3wav_module.jpg)
 
