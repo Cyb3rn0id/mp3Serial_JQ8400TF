@@ -1,5 +1,5 @@
 /*
-Mp3 Serial Library for boards with JQ8400TF chip
+Mp3 Serial Library for boards with JQ8400TF or QJ004-16S chip
 
 Copyright (c) 2017 Giovanni Bernardo (CyB3rn0id)
 http://www.settorezero.com
