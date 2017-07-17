@@ -2,7 +2,7 @@
 
 ![JQ8400TF module](https://github.com/Cyb3rn0id/mp3Serial_JQ8400TF/blob/master/documents/mp3wav_module.jpg)
 
-Module that can be used with this library is depicted above: is the one with only 4 pins (vcc, gnd, tx and rx) and micro-sd  (trans-flash) card. Module includes a 3W power amplifier (8002A chip). I'm pretty sure the chip on this module is the JQ8400TF (chip label on these modules are erased). Library is not suitable for other modules (like the YX5300 and similar) nor for the module with micro-usb port and flash memory on board: this module uses chip JQ8400FL that have different serial commands. 
+Module that can be used with this library is depicted above: is the one with only 4 pins (vcc, gnd, tx and rx) and micro-sd  (trans-flash) card. Module includes a 3W power amplifier (8002A chip). I'm pretty sure the chip on this module is the JQ8400TF or the QJ004-16S (chip label on these modules are erased). Library is not suitable for other modules (like the YX5300 and similar) nor for the module with micro-usb port and flash memory on board: this module uses chip JQ8400FL that have different serial commands. 
 
 The library uses the hardware serial port. I've written it for usage with ESP-01 (ESP8266) but I've tested it also on Arduino Duemilanove and Arduino Leonardo. The library includes features for be used with other Serial ports (1,2 and 3) on Arduino Leonardo, Mega and Mega2560.
 
