@@ -46,12 +46,12 @@ void mp3Serial::begin(void)
 		case 0:
 			Serial.begin(9600);
 			break;
-		#ifdef AVR_LEONARDO || AVR_MEGA || AVR_MEGA2560
+		#if defined(AVR_LEONARDO) || defined(AVR_MEGA) || defined(AVR_MEGA2560)
 		case 1:
 			Serial1.begin(9600);
 			break;
 		#endif
-		#ifdef AVR_MEGA || AVR_MEGA2560
+		#if defined(AVR_MEGA) || defined(AVR_MEGA2560)
 		case 2:
 			Serial2.begin(9600);
 			break;
@@ -171,12 +171,12 @@ void mp3Serial::write_nBytes(uint8_t n)
 		case 0:
 			Serial.write(mp3Buffer[i]);
 			break;
-		#ifdef AVR_LEONARDO || AVR_MEGA || AVR_MEGA2560
+		#if defined(AVR_LEONARDO) || defined(AVR_MEGA) || defined(AVR_MEGA2560)
 		case 1:
 			Serial1.write(mp3Buffer[i]);
 			break;
 		#endif
-		#ifdef AVR_MEGA || AVR_MEGA2560
+		#if defined(AVR_MEGA) || defined(AVR_MEGA2560)
 		case 2:
 			Serial2.write(mp3Buffer[i]);
 			break;
