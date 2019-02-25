@@ -46,12 +46,12 @@ void mp3Serial::begin(void)
 		case 0:
 			Serial.begin(9600);
 			break;
-		#ifdef AVR_LEONARDO || AVR_MEGA || AVR_MEGA2560
+		#if defined(AVR_LEONARDO) || defined(AVR_MEGA) || defined(AVR_MEGA2560)
 		case 1:
 			Serial1.begin(9600);
 			break;
 		#endif
-		#ifdef AVR_MEGA || AVR_MEGA2560
+		#if defined(AVR_MEGA) || defined(AVR_MEGA2560)
 		case 2:
 			Serial2.begin(9600);
 			break;
@@ -153,7 +153,7 @@ void mp3Serial::injectSong(uint16_t index)
 	};
 
 // play song INDEX from folder FOLDER
-void playFromFolder(uint8_t folder, uint8t index)
+void mp3Serial::playFromFolder(uint8_t folder, uint8_t index)
 	{
 	write_3bytes(CMD_PLAY_DIR_INDEX, (uint16_t)((folder<<8)|index)); 
 	};
@@ -171,12 +171,12 @@ void mp3Serial::write_nBytes(uint8_t n)
 		case 0:
 			Serial.write(mp3Buffer[i]);
 			break;
-		#ifdef AVR_LEONARDO || AVR_MEGA || AVR_MEGA2560
+		#if defined(AVR_LEONARDO) || defined(AVR_MEGA) || defined(AVR_MEGA2560)
 		case 1:
 			Serial1.write(mp3Buffer[i]);
 			break;
 		#endif
-		#ifdef AVR_MEGA || AVR_MEGA2560
+		#if defined(AVR_MEGA) || defined(AVR_MEGA2560)
 		case 2:
 			Serial2.write(mp3Buffer[i]);
 			break;
